@@ -50,7 +50,8 @@ spd = 2;
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>if(keyboard_check(ord('W'))){
+            <string>/// Handle Input for Movement
+if(keyboard_check(ord('W'))){
    y -= spd;
 }
 if(keyboard_check(ord('S'))){
@@ -61,6 +62,12 @@ if(keyboard_check(ord('A'))){
 }
 if(keyboard_check(ord('D'))){
    x += spd;
+}
+
+if(keyboard_check(vk_shift)){
+   spd = 6;
+} else{
+   spd = 2;
 }
 </string>
           </argument>
