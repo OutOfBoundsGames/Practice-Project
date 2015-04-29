@@ -12,6 +12,9 @@
     <background>background\bg_press_esc</background>
   </backgrounds>
   <paths name="paths"/>
+  <fonts name="fonts">
+    <font>fonts\fnt_test</font>
+  </fonts>
   <objects name="objects">
     <object>objects\obj_control</object>
     <objects name="Player">
