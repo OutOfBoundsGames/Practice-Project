@@ -8,7 +8,7 @@
   <sprites name="sprites">
     <sprite>sprites\spr_player</sprite>
     <sprite>sprites\spr_CursorBox</sprite>
-    <sprite>sprites\obj_Cursor2</sprite>
+    <sprite>sprites\spr_Cursor2</sprite>
     <sprite>sprites\spr_Cursor1</sprite>
     <sprite>sprites\spr_Exit</sprite>
   </sprites>
