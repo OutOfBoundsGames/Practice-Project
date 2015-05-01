@@ -28,7 +28,7 @@
             <string>x = mouse_x
 y = mouse_y
 
-if place_meeting(x, y, par_gui) image_index = (spr_Cursor1);
+if place_meeting(x, y, par_gui) image_index = spr_Cursor1;
 
 </string>
           </argument>
