@@ -20,14 +20,21 @@
     <font>fonts\fnt_test</font>
   </fonts>
   <objects name="objects">
-    <object>objects\obj_control</object>
     <objects name="Player">
       <object>objects\obj_player</object>
     </objects>
+    <objects name="Parents">
+      <object>objects\par_gui</object>
+    </objects>
     <object>objects\obj_CursorBox</object>
-    <object>objects\obj_Cursor</object>
-    <object>objects\par_gui</object>
-    <object>objects\obj_button_exit</object>
+    <objects name="GUI">
+      <object>objects\obj_Cursor</object>
+      <object>objects\obj_button_exit</object>
+    </objects>
+    <objects name="Controllers">
+      <object>objects\obj_control</object>
+      <object>objects\ctrl_console</object>
+    </objects>
   </objects>
   <rooms name="rooms">
     <room>rooms\rm_start</room>

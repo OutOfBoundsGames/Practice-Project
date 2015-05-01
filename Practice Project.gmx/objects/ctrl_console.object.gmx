@@ -25,13 +25,13 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>global.version = "&lt;Unamed&gt; Pre-Alpha v0.0.1"
+            <string>global.commands = "Commands page 1:##version = Display current version#restart = Restarts the game#stop = Stops the game"
 </string>
           </argument>
         </arguments>
       </action>
     </event>
-    <event eventtype="9" enumb="27">
+    <event eventtype="5" enumb="17">
       <action>
         <libid>1</libid>
         <id>603</id>
@@ -48,7 +48,27 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>game_end()
+            <string>if keyboard_check_pressed(ord("C"))
+{
+console = get_string("Enter a Command","")
+
+if console = "help"
+    {
+        show_message(global.commands)
+    }
+if console = "version"
+    {
+        show_message(global.version)
+    }
+if console = "restart"
+    {
+        game_restart()
+    }
+if console = "stop"
+    {
+        game_end()
+    }
+}
 </string>
           </argument>
         </arguments>
