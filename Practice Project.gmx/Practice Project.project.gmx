@@ -7,6 +7,10 @@
   <sounds name="sound"/>
   <sprites name="sprites">
     <sprite>sprites\spr_player</sprite>
+    <sprite>sprites\spr_CursorBox</sprite>
+    <sprite>sprites\obj_Cursor2</sprite>
+    <sprite>sprites\spr_Cursor1</sprite>
+    <sprite>sprites\spr_Exit</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\bg_press_esc</background>
@@ -20,6 +24,10 @@
     <objects name="Player">
       <object>objects\obj_player</object>
     </objects>
+    <object>objects\obj_CursorBox</object>
+    <object>objects\obj_Cursor</object>
+    <object>objects\par_gui</object>
+    <object>objects\obj_button_exit</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\rm_start</room>
