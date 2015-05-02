@@ -11,6 +11,7 @@
     <sprite>sprites\spr_Cursor2</sprite>
     <sprite>sprites\spr_Cursor1</sprite>
     <sprite>sprites\spr_Exit</sprite>
+    <sprite>sprites\spr_block</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\bg_press_esc</background>
