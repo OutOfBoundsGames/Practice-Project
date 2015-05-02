@@ -59,6 +59,41 @@ y = mouse_y;
   x = (x div xgrid_size)*xgrid_size;
   y = (y div ygrid_size)*ygrid_size;
 }
+
+
+blockplaced = instance_place(x,y,obj_block)
+if blockplaced{     //If a placed block is "under" the cursor box
+    if mouse_check_button(mb_right){    //If we press the right mouse button
+      
+      with (blockplaced){
+        instance_destroy()  //We will delete the block that is placed under the cursor box
+        
+        }
+      }
+}
+</string>
+          </argument>
+        </arguments>
+      </action>
+    </event>
+    <event eventtype="6" enumb="7">
+      <action>
+        <libid>1</libid>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>instance_create(x,y,obj_block) //Create a block at the cursor position
 </string>
           </argument>
         </arguments>
@@ -76,5 +111,8 @@ y = mouse_y;
   <PhysicsObjectFriction>0.200000002980232</PhysicsObjectFriction>
   <PhysicsObjectAwake>-1</PhysicsObjectAwake>
   <PhysicsObjectKinematic>0</PhysicsObjectKinematic>
-  <PhysicsShapePoints/>
+  <PhysicsShapePoints>
+    <point>0,0</point>
+    <point>32,32</point>
+  </PhysicsShapePoints>
 </object>

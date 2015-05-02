@@ -36,6 +36,9 @@
       <object>objects\obj_control</object>
       <object>objects\ctrl_console</object>
     </objects>
+    <objects name="Blocks">
+      <object>objects\obj_block</object>
+    </objects>
   </objects>
   <rooms name="rooms">
     <room>rooms\rm_start</room>

@@ -25,7 +25,7 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>global.commands = "Commands page 1:##version = Display current version#restart = Restarts the game#stop = Stops the game"
+            <string>global.commands = "Commands page 1:##version = Display current version#restart = Restarts the game#stop = Stops the game#stop = Stops the game#stop = Stops the game#removeallblocks = Deletes all the block on the room"
 </string>
           </argument>
         </arguments>
@@ -67,6 +67,10 @@ if console = "restart"
 if console = "stop"
     {
         game_end()
+    }
+if console = "removeallblocks"
+    {
+        with (obj_block){ instance_destroy()}
     }
 }
 </string>
