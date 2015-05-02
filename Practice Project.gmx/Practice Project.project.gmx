@@ -27,10 +27,10 @@
     <objects name="Parents">
       <object>objects\par_gui</object>
     </objects>
-    <object>objects\obj_CursorBox</object>
     <objects name="GUI">
       <object>objects\obj_Cursor</object>
       <object>objects\obj_button_exit</object>
+      <object>objects\obj_CursorBox</object>
     </objects>
     <objects name="Controllers">
       <object>objects\obj_control</object>
