@@ -27,9 +27,10 @@
             <kind>1</kind>
             <string>if place_meeting(x, y, obj_Cursor)
 {
-instance_deactivate_object(obj_CursorBox);
-}else
-instance_activate_object(obj_CursorBox);
+   instance_deactivate_object(obj_CursorBox);
+}else{
+   instance_activate_object(obj_CursorBox);
+}
 </string>
           </argument>
         </arguments>
