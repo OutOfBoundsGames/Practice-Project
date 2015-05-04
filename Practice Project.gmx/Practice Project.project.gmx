@@ -40,6 +40,7 @@
     <objects name="Controllers">
       <object>objects\obj_control</object>
       <object>objects\ctrl_console</object>
+      <object>objects\ctrl_grid</object>
     </objects>
     <objects name="Blocks">
       <object>objects\obj_block</object>
