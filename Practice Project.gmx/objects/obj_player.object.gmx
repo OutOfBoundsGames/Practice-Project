@@ -28,6 +28,9 @@
             <string>///Initialize
 
 spd = 2;
+
+vspd =0;
+hspd = 0;
 </string>
           </argument>
         </arguments>
@@ -51,24 +54,38 @@ spd = 2;
           <argument>
             <kind>1</kind>
             <string>/// Handle Input for Movement
-if(keyboard_check(ord('W'))){
-   y -= spd;
-}
-if(keyboard_check(ord('S'))){
-   y += spd;
-}
-if(keyboard_check(ord('A'))){
-   x -= spd;
-}
-if(keyboard_check(ord('D'))){
-   x += spd;
-}
 
 if(keyboard_check(vk_shift)){
    spd = 6;
 } else{
    spd = 2;
 }
+
+if(keyboard_check(ord('W'))){
+   vspd = -spd;
+}
+if(keyboard_check(ord('S'))){
+   vspd = spd;
+}
+if(keyboard_check(ord('A'))){
+   hspd = -spd;
+}
+if(keyboard_check(ord('D'))){
+   hspd += spd;
+}
+
+if(!place_meeting(x+hspd, y, par_block)){
+   x += hspd;
+}
+
+if(!place_meeting(x, y+vspd, par_block)){
+   y += vspd;
+}
+
+hspd = 0;
+vspd = 0;
+
+
 </string>
           </argument>
         </arguments>

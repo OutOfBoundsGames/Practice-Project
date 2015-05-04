@@ -61,15 +61,15 @@ y = mouse_y;
 }
 
 
-blockplaced = instance_place(x,y,obj_block)
-if blockplaced{     //If a placed block is "under" the cursor box
+blockplaced = instance_place(x,y,obj_wood_block)
+if blockplaced {     //If a placed block is "under" the cursor box
     if mouse_check_button(mb_right){    //If we press the right mouse button
       
       with (blockplaced){
-        instance_destroy()  //We will delete the block that is placed under the cursor box
-        
-        }
+        instance_destroy();  //We will delete the block that is placed under the cursor box
+        ctrl_grid.grid[other.x/64, other.y/64] = eStatus.EMPTY;
       }
+    }
 }
 </string>
           </argument>
