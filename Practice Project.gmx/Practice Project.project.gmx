@@ -44,6 +44,7 @@
     </objects>
     <objects name="Blocks">
       <object>objects\obj_block</object>
+      <object>objects\obj_wood_block</object>
     </objects>
   </objects>
   <rooms name="rooms">

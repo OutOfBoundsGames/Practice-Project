@@ -93,7 +93,13 @@ if blockplaced{     //If a placed block is "under" the cursor box
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>instance_create(x,y,obj_block) //Create a block at the cursor position
+            <string>// Check if the cell at block cursor position is free
+if(ctrl_grid.grid[x/64, y/64] == eStatus.EMPTY){
+   instance_create(x,y,obj_wood_block) //Create a block at the cursor position
+   ctrl_grid.grid[x/64, y/64] = eStatus.WOOD;
+} else { 
+   show_message("Can't place block there!");
+}
 </string>
           </argument>
         </arguments>
