@@ -61,16 +61,52 @@ y = mouse_y;
 }
 
 
-blockplaced = instance_place(x,y,obj_wood_block)
-if blockplaced {     //If a placed block is "under" the cursor box
-    if mouse_check_button(mb_right){    //If we press the right mouse button
-      
-      with (blockplaced){
-        instance_destroy();  //We will delete the block that is placed under the cursor box
-        ctrl_grid.grid[other.x/64, other.y/64] = eStatus.EMPTY;
-      }
-    }
+
+</string>
+          </argument>
+        </arguments>
+      </action>
+    </event>
+    <event eventtype="6" enumb="8">
+      <action>
+        <libid>1</libid>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>///Remove block
+  
+with(instance_place(x,y,obj_wood_block)){
+   ctrl_grid.grid[other.x/64, other.y/64] = eStatus.EMPTY; // Set the cell to empty in the grid
+   instance_destroy();  //We will delete the block that is placed under the cursor box
+   
 }
+
+
+// Update neigbours
+with(instance_place(x, y-1, obj_wood_block)){
+   event_user(0);
+}
+with(instance_place(x+ctrl_grid.cell_width, y, obj_wood_block)){
+   event_user(0);
+}
+with(instance_place(x, y+ctrl_grid.cell_height, obj_wood_block)){
+   event_user(0);
+}
+with(instance_place(x-1, y, obj_wood_block)){
+   event_user(0);
+}
+
 </string>
           </argument>
         </arguments>
@@ -96,10 +132,28 @@ if blockplaced {     //If a placed block is "under" the cursor box
             <string>// Check if the cell at block cursor position is free
 if(ctrl_grid.grid[x/64, y/64] == eStatus.EMPTY){
    instance_create(x,y,obj_wood_block) //Create a block at the cursor position
+   instance_create(x+64,y,obj_hammer) //Create a hammer at the cursor position
+   
    ctrl_grid.grid[x/64, y/64] = eStatus.WOOD;
+   
+   with(instance_place(x, y-1, obj_wood_block)){
+      event_user(0);
+   }
+   with(instance_place(x+ctrl_grid.cell_width, y, obj_wood_block)){
+      event_user(0);
+   }
+   with(instance_place(x, y+ctrl_grid.cell_height, obj_wood_block)){
+      event_user(0);
+   }
+   with(instance_place(x-1, y, obj_wood_block)){
+      event_user(0);
+   }
+   
 } else { 
    show_message("Can't place block there!");
 }
+
+
 </string>
           </argument>
         </arguments>
