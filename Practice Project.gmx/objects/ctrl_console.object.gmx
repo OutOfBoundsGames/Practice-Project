@@ -69,9 +69,11 @@ if console = "stop"
         game_end()
     }
 if console = "removeallblocks"
-    {
-        with (obj_block){ instance_destroy()}
-    }
+   {
+      with (obj_wood_block){ 
+         instance_destroy();
+      }
+   }
 }
 </string>
           </argument>
