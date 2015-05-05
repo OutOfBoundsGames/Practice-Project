@@ -72,6 +72,9 @@ if console = "removeallblocks"
    {
       with (obj_wood_block){ 
          instance_destroy();
+         with(ctrl_grid){
+            event_user(0);
+         }
       }
    }
 }
