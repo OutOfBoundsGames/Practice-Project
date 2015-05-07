@@ -9,7 +9,10 @@
   </sounds>
   <sprites name="sprites">
     <sprite>sprites\spr_player</sprite>
+    <sprite>sprites\spr_enemy</sprite>
     <sprite>sprites\spr_Exit</sprite>
+    <sprite>sprites\spr_hammer_1</sprite>
+    <sprite>sprites\spr_hammer_2</sprite>
     <sprites name="Cursors">
       <sprite>sprites\spr_Cursor2</sprite>
       <sprite>sprites\spr_Cursor1</sprite>
@@ -19,8 +22,6 @@
       <sprite>sprites\spr_wooden_block</sprite>
       <sprite>sprites\spr_block</sprite>
     </sprites>
-    <sprite>sprites\spr_hammer_1</sprite>
-    <sprite>sprites\spr_hammer_2</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\bg_press_esc</background>
@@ -32,6 +33,9 @@
   <objects name="objects">
     <objects name="Player">
       <object>objects\obj_player</object>
+    </objects>
+    <objects name="Enemies">
+      <object>objects\obj_Neeco</object>
     </objects>
     <objects name="Parents">
       <object>objects\par_gui</object>
@@ -53,6 +57,7 @@
     <object>objects\obj_hammer</object>
   </objects>
   <rooms name="rooms">
+    <room>rooms\rm_path_test</room>
     <room>rooms\rm_start</room>
   </rooms>
   <help>

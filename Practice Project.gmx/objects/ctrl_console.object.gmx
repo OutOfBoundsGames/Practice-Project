@@ -25,7 +25,12 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>global.commands = "Commands page 1:##version = Display current version#restart = Restarts the game#stop = Stops the game#removeallblocks = Deletes all the block on the room"
+            <string>global.commands = "Commands page 1:##
+version = Display current version#
+restart = Restarts the game#
+stop = Stops the game#
+removeallblocks = Deletes all the block on the room#
+loggrid = log the current grid in compile tab";
 </string>
           </argument>
         </arguments>
@@ -50,33 +55,45 @@
             <kind>1</kind>
             <string>if keyboard_check_pressed(ord("C"))
 {
-console = get_string("Enter a Command","")
+   console = get_string("Enter a Command","");
 
-if console = "help"
-    {
-        show_message(global.commands)
-    }
-if console = "version"
-    {
-        show_message(global.version)
-    }
-if console = "restart"
-    {
-        game_restart()
-    }
-if console = "stop"
-    {
-        game_end()
-    }
-if console = "removeallblocks"
-   {
-      with (obj_wood_block){ 
-         instance_destroy();
-         with(ctrl_grid){
-            event_user(0);
+   switch(console){
+      case "help":
+         show_message(global.commands);
+         break;
+         
+      case "version":
+         show_message(global.version);
+         break;
+         
+      case "restart":
+         game_restart();
+         break;
+         
+      case "stop":
+         game_end();
+         break;
+         
+      case "removeallblocks":
+         with(obj_wood_block){ 
+            instance_destroy();
+            with(ctrl_grid){
+               event_user(0);
+            }
          }
-      }
+         break;
+         
+      case "loggrid":
+         with(ctrl_grid){
+            for(x = 0; x &lt; array_height_2d(grid); ++x){
+               for(y = 0; y &lt; array_length_2d(grid, x); ++y){
+                  show_debug_message("Grid "+string(x)+"/"+string(y)+": "+string(grid[x,y]));
+               }
+            }
+         }
+         break;
    }
+
 }
 </string>
           </argument>
