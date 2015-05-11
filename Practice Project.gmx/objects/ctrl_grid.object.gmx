@@ -30,7 +30,6 @@ enum eStatus {
    EMPTY = 0,
    WOOD = 1
 }
-
 cell_width = 64;
 cell_height = 64;
 columns = room_width / cell_width;

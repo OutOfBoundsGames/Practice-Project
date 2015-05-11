@@ -50,11 +50,10 @@ path=path_add();
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>follow=mp_grid_path(global.map,path,x,y,obj_finish.x,obj_finish.y,0);
-if follow {
+            <string>if mp_grid_path(global.map,path,x,y,obj_finish.x,obj_finish.y,0)
+{
 path_start(path,3,0,false);
-}else path_end();
-
+}   else path_end();
 </string>
           </argument>
         </arguments>
