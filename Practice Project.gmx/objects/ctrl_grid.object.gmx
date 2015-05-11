@@ -3,7 +3,7 @@
   <spriteName>&lt;undefined&gt;</spriteName>
   <solid>0</solid>
   <visible>-1</visible>
-  <depth>0</depth>
+  <depth>1</depth>
   <persistent>0</persistent>
   <parentName>&lt;undefined&gt;</parentName>
   <maskName>&lt;undefined&gt;</maskName>
@@ -26,7 +26,6 @@
           <argument>
             <kind>1</kind>
             <string>///Initialize grid
-
 enum eStatus {
    EMPTY = 0,
    WOOD = 1
@@ -34,13 +33,13 @@ enum eStatus {
 
 cell_width = 64;
 cell_height = 64;
-
 columns = room_width / cell_width;
 rows = room_height / cell_height;
 
 grid[0, 0] = 0;
 
 event_user(0);
+
 </string>
           </argument>
         </arguments>

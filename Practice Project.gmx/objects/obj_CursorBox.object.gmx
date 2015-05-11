@@ -3,7 +3,7 @@
   <spriteName>spr_CursorBox</spriteName>
   <solid>0</solid>
   <visible>-1</visible>
-  <depth>-8888</depth>
+  <depth>-10</depth>
   <persistent>0</persistent>
   <parentName>&lt;undefined&gt;</parentName>
   <maskName>&lt;undefined&gt;</maskName>
@@ -54,13 +54,10 @@ ygrid_size = 64
 
 x = mouse_x;
 y = mouse_y;
-
 {
   x = (x div xgrid_size)*xgrid_size;
   y = (y div ygrid_size)*ygrid_size;
 }
-
-
 
 </string>
           </argument>
@@ -130,11 +127,14 @@ with(instance_place(x-1, y, obj_wood_block)){
           <argument>
             <kind>1</kind>
             <string>// Check if the cell at block cursor position is free
-if(ctrl_grid.grid[x/64, y/64] == eStatus.EMPTY){
+if(ctrl_grid.grid[x div 64, y div 64] == eStatus.EMPTY){
    instance_create(x,y,obj_wood_block) //Create a block at the cursor position
    instance_create(x+64,y,obj_hammer) //Create a hammer at the cursor position
    
    ctrl_grid.grid[x/64, y/64] = eStatus.WOOD;
+   with ctrl_grid {
+   event_user(1);
+   }
    
    with(instance_place(x, y-1, obj_wood_block)){
       event_user(0);
@@ -152,7 +152,6 @@ if(ctrl_grid.grid[x/64, y/64] == eStatus.EMPTY){
 } else { 
    show_message("Can't place block there!");
 }
-
 
 </string>
           </argument>

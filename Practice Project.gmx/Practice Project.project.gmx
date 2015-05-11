@@ -21,6 +21,8 @@
     </sprites>
     <sprite>sprites\spr_hammer_1</sprite>
     <sprite>sprites\spr_hammer_2</sprite>
+    <sprite>sprites\spr_enemy</sprite>
+    <sprite>sprites\spr_finish</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\bg_press_esc</background>
@@ -47,10 +49,12 @@
       <object>objects\ctrl_grid</object>
     </objects>
     <objects name="Blocks">
-      <object>objects\par_block</object>
       <object>objects\obj_wood_block</object>
+      <object>objects\par_block</object>
     </objects>
     <object>objects\obj_hammer</object>
+    <object>objects\obj_enemy</object>
+    <object>objects\obj_finish</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\rm_start</room>

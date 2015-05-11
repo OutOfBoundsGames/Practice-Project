@@ -6,7 +6,7 @@
   <depth>0</depth>
   <persistent>0</persistent>
   <parentName>par_block</parentName>
-  <maskName>&lt;undefined&gt;</maskName>
+  <maskName>spr_block</maskName>
   <events>
     <event eventtype="0" enumb="0">
       <action>
@@ -25,12 +25,11 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>/// Initialize
+            <string>//Initialize
 image_index = 0;
 image_speed = 0;
-
 neighbours = 0;
-
+mp_grid_add_instances(global.map,obj_wood_block,false);
 event_user(0);
 </string>
           </argument>
