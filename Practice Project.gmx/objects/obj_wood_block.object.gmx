@@ -29,7 +29,7 @@
 image_index = 0;
 image_speed = 0;
 neighbours = 0;
-mp_grid_add_instances(global.map,obj_wood_block,false);
+mp_grid_add_instances(global.map,id,false);
 event_user(0);
 </string>
           </argument>
