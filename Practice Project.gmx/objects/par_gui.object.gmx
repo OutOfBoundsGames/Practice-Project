@@ -25,7 +25,7 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>if place_meeting(x, y, obj_Cursor)
+            <string>if (distance_to_point(mouse_x,mouse_y)==0)
 {
    instance_deactivate_object(obj_CursorBox);
 }else{

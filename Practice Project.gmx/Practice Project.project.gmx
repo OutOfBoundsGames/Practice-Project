@@ -23,6 +23,9 @@
     <sprite>sprites\spr_hammer_2</sprite>
     <sprite>sprites\spr_enemy</sprite>
     <sprite>sprites\spr_finish</sprite>
+    <sprite>sprites\spr_destroy</sprite>
+    <sprite>sprites\spr_wood</sprite>
+    <sprite>sprites\sprite12</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\bg_press_esc</background>
@@ -55,6 +58,8 @@
     <object>objects\obj_hammer</object>
     <object>objects\obj_enemy</object>
     <object>objects\obj_finish</object>
+    <object>objects\btn_destroyed</object>
+    <object>objects\btn_wood_block</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\rm_start</room>

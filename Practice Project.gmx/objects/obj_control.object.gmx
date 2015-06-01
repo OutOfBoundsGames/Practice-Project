@@ -26,6 +26,7 @@
           <argument>
             <kind>1</kind>
             <string>global.version = "&lt;Unamed&gt; Pre-Alpha v0.0.1"
+global.select = ""
 </string>
           </argument>
         </arguments>
