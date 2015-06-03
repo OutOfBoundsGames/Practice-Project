@@ -61,9 +61,10 @@
       </objects>
     </objects>
     <objects name="Controllers">
-      <object>objects\obj_control</object>
+      <object>objects\ctrl_game</object>
       <object>objects\ctrl_console</object>
       <object>objects\ctrl_grid</object>
+      <object>objects\ctrl_resourcecontrol</object>
     </objects>
     <objects name="Blocks">
       <object>objects\obj_wood_block</object>
