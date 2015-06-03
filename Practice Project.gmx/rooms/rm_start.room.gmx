@@ -2,7 +2,7 @@
 <room>
   <caption></caption>
   <width>3000</width>
-  <height>1080</height>
+  <height>720</height>
   <vsnap>8</vsnap>
   <hsnap>8</hsnap>
   <isometric>0</isometric>
@@ -60,8 +60,11 @@
     <instance objName="obj_finish" x="2304" y="512" name="inst_1E603CA1" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_enemy" x="0" y="384" name="inst_FAC9AE9F" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="ctrl_grid" x="296" y="128" name="inst_854A8F65" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="btn_destroyed" x="160" y="8" name="inst_3FE0F839" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="btn_wood_block" x="232" y="8" name="inst_18B964FF" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="btn_wood_block" x="1208" y="8" name="inst_18B964FF" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_gui_frame" x="1200" y="0" name="inst_C1A77931" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="btn_destroyed" x="1208" y="296" name="inst_B57983BA" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="btn_stone_block" x="1208" y="80" name="inst_3C30E501" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="btn_iron_block" x="1208" y="152" name="inst_168A55E5" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>0</PhysicsWorld>

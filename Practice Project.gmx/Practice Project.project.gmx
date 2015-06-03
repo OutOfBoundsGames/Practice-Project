@@ -26,9 +26,16 @@
     <sprite>sprites\spr_destroy</sprite>
     <sprite>sprites\spr_wood</sprite>
     <sprite>sprites\sprite12</sprite>
+    <sprite>sprites\spr_woodresource</sprite>
+    <sprite>sprites\obj_stoneresource</sprite>
+    <sprite>sprites\spr_ironresource</sprite>
+    <sprite>sprites\sprite16</sprite>
+    <sprite>sprites\spr_gui_frame</sprite>
+    <sprite>sprites\spr_arrow</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\bg_press_esc</background>
+    <background>background\tile_gui</background>
   </backgrounds>
   <paths name="paths"/>
   <fonts name="fonts">
@@ -60,6 +67,10 @@
     <object>objects\obj_finish</object>
     <object>objects\btn_destroyed</object>
     <object>objects\btn_wood_block</object>
+    <object>objects\btn_stone_block</object>
+    <object>objects\btn_iron_block</object>
+    <object>objects\obj_gui_frame</object>
+    <object>objects\obj_arrow</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\rm_start</room>
