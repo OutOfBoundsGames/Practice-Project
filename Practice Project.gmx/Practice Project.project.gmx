@@ -35,7 +35,8 @@
     <sprite>sprites\sprite21</sprite>
     <sprite>sprites\spr_tree</sprite>
     <sprite>sprites\spr_log</sprite>
-    <sprite>sprites\sprite22</sprite>
+    <sprite>sprites\spr_treeEffect</sprite>
+    <sprite>sprites\spr_logeff</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\bg_press_esc</background>
@@ -80,6 +81,7 @@
     <object>objects\obj_tree</object>
     <object>objects\obj_log</object>
     <object>objects\obj_treeEffect</object>
+    <object>objects\obj_logeff</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\rm_start</room>

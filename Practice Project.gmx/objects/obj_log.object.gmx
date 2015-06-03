@@ -28,6 +28,20 @@
             <string>if global.select == "destroy"
 {
     global.wood += 2;
+    repeat(4)
+    {
+        with (instance_create(x+64,y+82,obj_logeff))
+        {
+            hspeed=random_range(-3,-0.5);
+        }
+    }
+    repeat(4)
+    {
+        with (instance_create(x+64,y+82,obj_logeff))
+        {
+            hspeed=random_range(0.5,3);
+        }
+    }
     instance_destroy()
 }
 </string>
