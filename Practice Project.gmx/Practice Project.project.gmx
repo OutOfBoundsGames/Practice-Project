@@ -8,8 +8,6 @@
     <sound>sound\snd_woodblock</sound>
   </sounds>
   <sprites name="sprites">
-    <sprite>sprites\spr_player</sprite>
-    <sprite>sprites\spr_Exit</sprite>
     <sprites name="Cursors">
       <sprite>sprites\spr_Cursor2</sprite>
       <sprite>sprites\spr_Cursor1</sprite>
@@ -19,32 +17,33 @@
       <sprite>sprites\spr_wooden_block</sprite>
       <sprite>sprites\spr_block</sprite>
     </sprites>
-    <sprite>sprites\spr_hammer_1</sprite>
-    <sprite>sprites\spr_hammer_2</sprite>
     <sprite>sprites\spr_enemy</sprite>
     <sprite>sprites\spr_finish</sprite>
-    <sprite>sprites\spr_destroy</sprite>
-    <sprite>sprites\spr_wood</sprite>
-    <sprite>sprites\sprite12</sprite>
-    <sprite>sprites\spr_woodresource</sprite>
-    <sprite>sprites\obj_stoneresource</sprite>
-    <sprite>sprites\spr_ironresource</sprite>
-    <sprite>sprites\sprite16</sprite>
-    <sprite>sprites\spr_gui_frame</sprite>
-    <sprite>sprites\spr_arrow</sprite>
+    <sprite>sprites\spr_wood_currency</sprite>
+    <sprites name="GUI">
+      <sprite>sprites\obj_stoneresource</sprite>
+      <sprite>sprites\spr_woodresource</sprite>
+      <sprite>sprites\spr_arrow</sprite>
+      <sprite>sprites\spr_hammer_1</sprite>
+      <sprite>sprites\spr_destroy</sprite>
+      <sprite>sprites\spr_Exit</sprite>
+      <sprite>sprites\spr_gui_frame</sprite>
+      <sprite>sprites\spr_hammer_2</sprite>
+      <sprite>sprites\spr_wood</sprite>
+      <sprite>sprites\spr_ironresource</sprite>
+    </sprites>
   </sprites>
   <backgrounds name="background">
     <background>background\bg_press_esc</background>
     <background>background\tile_gui</background>
+    <background>background\bg_gray</background>
+    <background>background\bg_test</background>
   </backgrounds>
   <paths name="paths"/>
   <fonts name="fonts">
     <font>fonts\fnt_test</font>
   </fonts>
   <objects name="objects">
-    <objects name="Player">
-      <object>objects\obj_player</object>
-    </objects>
     <objects name="Parents">
       <object>objects\par_gui</object>
     </objects>
@@ -52,6 +51,14 @@
       <object>objects\obj_Cursor</object>
       <object>objects\obj_button_exit</object>
       <object>objects\obj_CursorBox</object>
+      <objects name="HUD">
+        <object>objects\btn_wood_block</object>
+        <object>objects\btn_stone_block</object>
+        <object>objects\btn_iron_block</object>
+        <object>objects\btn_destroy</object>
+        <object>objects\obj_gui_frame</object>
+        <object>objects\obj_arrow</object>
+      </objects>
     </objects>
     <objects name="Controllers">
       <object>objects\obj_control</object>
@@ -65,12 +72,6 @@
     <object>objects\obj_hammer</object>
     <object>objects\obj_enemy</object>
     <object>objects\obj_finish</object>
-    <object>objects\btn_destroy</object>
-    <object>objects\btn_wood_block</object>
-    <object>objects\btn_stone_block</object>
-    <object>objects\btn_iron_block</object>
-    <object>objects\obj_gui_frame</object>
-    <object>objects\obj_arrow</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\rm_start</room>
