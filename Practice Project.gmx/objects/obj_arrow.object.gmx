@@ -8,6 +8,30 @@
   <parentName>&lt;undefined&gt;</parentName>
   <maskName>&lt;undefined&gt;</maskName>
   <events>
+    <event eventtype="0" enumb="0">
+      <action>
+        <libid>1</libid>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>objx = x
+objy = y
+</string>
+          </argument>
+        </arguments>
+      </action>
+    </event>
     <event eventtype="3" enumb="0">
       <action>
         <libid>1</libid>
@@ -27,12 +51,28 @@
             <kind>1</kind>
             <string>if global.select == "wood"
 {
-    image_index = 0
-    x = obj_wood_block.x
-    y = obj_wood_block.y+32
+    x = btn_wood_block.x
+    y = btn_wood_block.y
 }
-else{
-image_index = 1;
+if global.select == "stone"
+{
+    x = btn_stone_block.x
+    y = btn_stone_block.y
+}
+if global.select == "iron"
+{
+    x = btn_iron_block.x
+    y = btn_iron_block.y
+}
+if global.select == "destroy"
+{
+    x = btn_destroy.x
+    y = btn_destroy.y
+}
+if global.select == ""
+{
+    x = objx
+    y = objy
 }
 </string>
           </argument>

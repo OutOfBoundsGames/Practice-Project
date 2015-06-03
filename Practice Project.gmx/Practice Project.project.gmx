@@ -65,7 +65,7 @@
     <object>objects\obj_hammer</object>
     <object>objects\obj_enemy</object>
     <object>objects\obj_finish</object>
-    <object>objects\btn_destroyed</object>
+    <object>objects\btn_destroy</object>
     <object>objects\btn_wood_block</object>
     <object>objects\btn_stone_block</object>
     <object>objects\btn_iron_block</object>
