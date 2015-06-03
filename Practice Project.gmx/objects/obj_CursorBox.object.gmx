@@ -141,7 +141,7 @@ if global.select = "destroy"
     with(instance_place(x,y,obj_wood_block)){
        ctrl_grid.grid[other.x/64, other.y/64] = eStatus.EMPTY; // Set the cell to empty in the grid
        instance_destroy();  //We will delete the block that is placed under the cursor box
-       
+       global.wood += 1;
     }
     
     
@@ -159,7 +159,6 @@ if global.select = "destroy"
        event_user(0);
     }
     
-    global.wood += 1;
 
 }
 </string>
