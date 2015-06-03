@@ -32,6 +32,8 @@
       <sprite>sprites\spr_wood</sprite>
       <sprite>sprites\spr_ironresource</sprite>
     </sprites>
+    <sprite>sprites\sprite21</sprite>
+    <sprite>sprites\spr_tree</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\bg_press_esc</background>
@@ -73,6 +75,7 @@
     <object>objects\obj_hammer</object>
     <object>objects\obj_enemy</object>
     <object>objects\obj_finish</object>
+    <object>objects\obj_tree</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\rm_start</room>
