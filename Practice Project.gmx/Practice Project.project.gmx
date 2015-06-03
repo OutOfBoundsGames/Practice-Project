@@ -35,6 +35,7 @@
     <sprite>sprites\sprite21</sprite>
     <sprite>sprites\spr_tree</sprite>
     <sprite>sprites\spr_log</sprite>
+    <sprite>sprites\sprite22</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\bg_press_esc</background>
@@ -78,6 +79,7 @@
     <object>objects\obj_finish</object>
     <object>objects\obj_tree</object>
     <object>objects\obj_log</object>
+    <object>objects\obj_treeEffect</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\rm_start</room>

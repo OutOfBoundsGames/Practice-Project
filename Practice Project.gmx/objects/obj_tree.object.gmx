@@ -51,7 +51,8 @@ image_speed = 0;
             <kind>1</kind>
             <string>if global.select == "destroy"
 {
-        global.wood += 4
+        global.wood += 4;
+        repeat (irandom_range(7,13)) instance_create(x+64,y+64,obj_treeEffect)
     instance_change(obj_log,false);
 }
 </string>
@@ -71,5 +72,8 @@ image_speed = 0;
   <PhysicsObjectFriction>0.200000002980232</PhysicsObjectFriction>
   <PhysicsObjectAwake>-1</PhysicsObjectAwake>
   <PhysicsObjectKinematic>0</PhysicsObjectKinematic>
-  <PhysicsShapePoints/>
+  <PhysicsShapePoints>
+    <point>0,0</point>
+    <point>64,64</point>
+  </PhysicsShapePoints>
 </object>
