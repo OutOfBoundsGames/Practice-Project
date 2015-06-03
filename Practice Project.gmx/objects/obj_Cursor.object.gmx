@@ -35,7 +35,10 @@ with(par_gui){
       other.sprite_index = spr_Cursor2;
    }
 }
-
+if !keyboard_check(vk_space)
+{
+    view_object[0]=obj_Cursor;
+}else view_object[0]=noone;
 </string>
           </argument>
         </arguments>
