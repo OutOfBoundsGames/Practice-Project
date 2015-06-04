@@ -82,7 +82,7 @@ else
             <string>if global.select !="+" &amp;&amp; !instance_exists(obj_gui_frame_add)
 {
     global.select = "+";
-    instance_create(view_xview[0]+x1,view_yview[0]+y1,obj_gui_frame_add);
+    instance_create(x1,y1,obj_gui_frame_add);
 }
 else
 {

@@ -81,11 +81,11 @@ if image_xscale==1
 {
     if !instance_exists(obj_btn1)
     {
-        instance_create(x-480,y,obj_btn1)
+        instance_create(x1-480,y1,obj_btn1)
     }
     if !instance_exists(obj_btn2)
     {
-        instance_create(x-400,y,obj_btn2)
+        instance_create(x1-400,y1,obj_btn2)
     }
 }
 </string>
