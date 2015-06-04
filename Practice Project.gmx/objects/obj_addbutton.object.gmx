@@ -57,6 +57,16 @@ else
 {
     image_index = 0
 }
+if global.select !="+" &amp;&amp; global.select !="btn1" &amp;&amp; global.select !="btn2"
+{
+    if instance_exists(obj_gui_frame_add)
+    {
+        with obj_gui_frame_add
+        {
+            collapse=true;
+        }
+    }
+}
 </string>
           </argument>
         </arguments>
