@@ -93,8 +93,8 @@ if console = "stop"
     }
 if console = "reload"
     {
-        instance_deactivate_all();
-        alarmp[0] = 10;
+        instance_deactivate_all(true);
+        alarm[0] = 10;
     }
 if console = "removeallblocks"
    {

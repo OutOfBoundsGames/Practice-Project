@@ -54,11 +54,20 @@ ygrid_size = 64
 
 x = mouse_x;
 y = mouse_y;
+if global.select!="lumbermill"
 {
   x = (x div xgrid_size)*xgrid_size;
   y = (y div ygrid_size)*ygrid_size;
+  image_xscale=1;
+  image_yscale=1;
 }
-
+else
+{
+    x = (x div (xgrid_size*2))*(xgrid_size*2);
+    y = (y div (ygrid_size*2))*(ygrid_size*2);
+    image_xscale=2;
+    image_yscale=2;
+}
 </string>
           </argument>
         </arguments>
@@ -104,6 +113,8 @@ y = mouse_y;
           <argument>
             <kind>1</kind>
             <string>    // Check if the cell at block cursor position is free
+if global.select!="lumbermill"
+{
 if global.select = "wood"
 {
     if global.wood &gt;= 1
@@ -160,6 +171,15 @@ if global.select = "destroy"
     }
     
 
+}
+
+}
+else
+{
+    if place_free(x,y)
+    {
+        instance_create(x,y,obj_lumbermill);
+    }
 }
 </string>
           </argument>

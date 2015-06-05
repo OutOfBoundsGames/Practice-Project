@@ -59,7 +59,7 @@ if image_yscale &lt; 1
 {
     image_yscale+=0.1;
 }
-if global.select = "btn1"
+if global.select = "lumbermill"
 {
     image_index = 1
 }
