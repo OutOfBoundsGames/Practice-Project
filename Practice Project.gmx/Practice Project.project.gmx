@@ -43,6 +43,9 @@
     <sprite>sprites\spr_btn2</sprite>
     <sprite>sprites\spr_lumbermill</sprite>
     <sprite>sprites\spr_plus4</sprite>
+    <sprite>sprites\sprite29</sprite>
+    <sprite>sprites\spr_apple</sprite>
+    <sprite>sprites\sprite31</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\bg_press_esc</background>
@@ -58,6 +61,7 @@
     <objects name="Particles">
       <object>objects\obj_treeEffect</object>
       <object>objects\obj_logeff</object>
+      <object>objects\obj_apple</object>
     </objects>
     <objects name="Parents">
       <object>objects\par_gui</object>
