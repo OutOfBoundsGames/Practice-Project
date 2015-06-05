@@ -88,7 +88,6 @@ else
 }
 else
 {
-    global.select = " ";
     with (obj_gui_frame_add)
     {
         collapse=true;

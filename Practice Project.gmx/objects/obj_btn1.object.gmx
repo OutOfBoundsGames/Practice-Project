@@ -97,6 +97,12 @@ else
 {
     global.select = ""
 }
+
+//Remove the frame when you selected something
+with (obj_gui_frame_add)
+{
+    collapse=true;
+}
 </string>
           </argument>
         </arguments>

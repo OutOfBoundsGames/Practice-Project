@@ -68,6 +68,7 @@
     </objects>
     <objects name="Parents">
       <object>objects\par_gui</object>
+      <object>objects\par_block</object>
     </objects>
     <objects name="GUI">
       <object>objects\obj_Cursor</object>
@@ -94,14 +95,13 @@
     </objects>
     <objects name="Blocks">
       <object>objects\obj_wood_block</object>
-      <object>objects\par_block</object>
+      <object>objects\obj_lumbermill</object>
     </objects>
     <object>objects\obj_hammer</object>
     <object>objects\obj_enemy</object>
     <object>objects\obj_finish</object>
     <object>objects\obj_tree</object>
     <object>objects\obj_log</object>
-    <object>objects\obj_lumbermill</object>
     <object>objects\obj_plus4</object>
   </objects>
   <rooms name="rooms">

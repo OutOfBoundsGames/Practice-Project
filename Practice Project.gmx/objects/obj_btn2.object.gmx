@@ -89,13 +89,19 @@ else
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>if global.select != "btn2"
+            <string>if global.select != "mine"
 {
-    global.select = "btn2"
+    global.select = "mine"
 }
 else
 {
     global.select = ""
+}
+
+//Remove the frame when you selected something
+with (obj_gui_frame_add)
+{
+    collapse=true;
 }
 </string>
           </argument>
