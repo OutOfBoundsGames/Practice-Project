@@ -12,6 +12,7 @@
       <sprite>sprites\spr_Cursor2</sprite>
       <sprite>sprites\spr_Cursor1</sprite>
       <sprite>sprites\spr_CursorBox</sprite>
+      <sprite>sprites\spr_CursorBox_big</sprite>
     </sprites>
     <sprites name="Blocks">
       <sprite>sprites\spr_wooden_block</sprite>
@@ -46,6 +47,7 @@
     <sprite>sprites\sprite29</sprite>
     <sprite>sprites\spr_apple</sprite>
     <sprite>sprites\sprite31</sprite>
+    <sprite>sprites\spr_twig</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\bg_press_esc</background>
@@ -60,6 +62,7 @@
   <objects name="objects">
     <objects name="Particles">
       <object>objects\obj_treeEffect</object>
+      <object>objects\obj_twigEffect</object>
       <object>objects\obj_logeff</object>
       <object>objects\obj_apple</object>
     </objects>

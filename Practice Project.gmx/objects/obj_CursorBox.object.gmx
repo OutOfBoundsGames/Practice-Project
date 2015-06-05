@@ -58,15 +58,13 @@ if global.select!="lumbermill"
 {
   x = (x div xgrid_size)*xgrid_size;
   y = (y div ygrid_size)*ygrid_size;
-  image_xscale=1;
-  image_yscale=1;
+  sprite_index = spr_CursorBox;
 }
 if global.select="lumbermill" || distance_to_object(obj_lumbermill)==0
 {
     x = (x div (xgrid_size*2))*(xgrid_size*2);
     y = (y div (ygrid_size*2))*(ygrid_size*2);
-    image_xscale=2;
-    image_yscale=2;
+    sprite_index = spr_CursorBox_big;
 }
 </string>
           </argument>
