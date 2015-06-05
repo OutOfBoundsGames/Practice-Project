@@ -26,6 +26,7 @@
           <argument>
             <kind>1</kind>
             <string>vspeed=random_range(-7,-5);
+hspeed=random_range(-4,4);
 image_angle=random(360);
 gravity=0.3;
 </string>
