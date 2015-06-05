@@ -61,7 +61,7 @@ if global.select!="lumbermill"
   image_xscale=1;
   image_yscale=1;
 }
-else
+if global.select="lumbermill" || distance_to_object(obj_lumbermill)==0
 {
     x = (x div (xgrid_size*2))*(xgrid_size*2);
     y = (y div (ygrid_size*2))*(ygrid_size*2);
