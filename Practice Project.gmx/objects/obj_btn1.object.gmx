@@ -89,9 +89,9 @@ else
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>if global.select != "lumbermill"
+            <string>if global.select != "btn1"
 {
-    global.select = "lumbermill"
+    global.select = "btn1"
 }
 else
 {

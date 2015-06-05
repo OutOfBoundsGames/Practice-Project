@@ -41,8 +41,6 @@
     <sprite>sprites\spr_addbutton</sprite>
     <sprite>sprites\spr_btn1</sprite>
     <sprite>sprites\spr_btn2</sprite>
-    <sprite>sprites\spr_lumbermill</sprite>
-    <sprite>sprites\spr_plus4</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\bg_press_esc</background>
@@ -55,10 +53,6 @@
     <font>fonts\fnt_test</font>
   </fonts>
   <objects name="objects">
-    <objects name="Particles">
-      <object>objects\obj_treeEffect</object>
-      <object>objects\obj_logeff</object>
-    </objects>
     <objects name="Parents">
       <object>objects\par_gui</object>
     </objects>
@@ -73,11 +67,7 @@
         <object>objects\btn_destroy</object>
         <object>objects\obj_gui_frame</object>
         <object>objects\obj_arrow</object>
-        <object>objects\obj_gui_frame_add</object>
       </objects>
-      <object>objects\obj_btn2</object>
-      <object>objects\obj_btn1</object>
-      <object>objects\obj_addbutton</object>
     </objects>
     <objects name="Controllers">
       <object>objects\ctrl_game</object>
@@ -94,8 +84,12 @@
     <object>objects\obj_finish</object>
     <object>objects\obj_tree</object>
     <object>objects\obj_log</object>
-    <object>objects\obj_lumbermill</object>
-    <object>objects\obj_plus4</object>
+    <object>objects\obj_treeEffect</object>
+    <object>objects\obj_logeff</object>
+    <object>objects\obj_gui_frame_add</object>
+    <object>objects\obj_addbutton</object>
+    <object>objects\obj_btn1</object>
+    <object>objects\obj_btn2</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\rm_start</room>

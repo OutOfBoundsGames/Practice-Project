@@ -25,7 +25,7 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>global.wood = 10;
+            <string>global.wood = 0;
 global.stone = 0;
 global.iron = 0;
 global.villagers = 2;
