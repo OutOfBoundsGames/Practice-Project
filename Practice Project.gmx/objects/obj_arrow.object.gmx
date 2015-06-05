@@ -3,7 +3,7 @@
   <spriteName>spr_arrow</spriteName>
   <solid>0</solid>
   <visible>-1</visible>
-  <depth>0</depth>
+  <depth>-10</depth>
   <persistent>0</persistent>
   <parentName>&lt;undefined&gt;</parentName>
   <maskName>&lt;undefined&gt;</maskName>
@@ -32,7 +32,7 @@ objy = y
         </arguments>
       </action>
     </event>
-    <event eventtype="3" enumb="0">
+    <event eventtype="8" enumb="0">
       <action>
         <libid>1</libid>
         <id>603</id>
@@ -49,31 +49,10 @@ objy = y
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>if global.select == "wood"
-{
-    x = btn_wood_block.x
-    y = btn_wood_block.y
-}
-if global.select == "stone"
-{
-    x = btn_stone_block.x
-    y = btn_stone_block.y
-}
-if global.select == "iron"
-{
-    x = btn_iron_block.x
-    y = btn_iron_block.y
-}
-if global.select == "destroy"
-{
-    x = btn_destroy.x
-    y = btn_destroy.y
-}
-if global.select == ""
-{
-    x = objx
-    y = objy
-}
+            <string>x=view_xview[0]+objx
+y=view_yview[0]+objy
+draw_self();
+
 </string>
           </argument>
         </arguments>
@@ -91,5 +70,8 @@ if global.select == ""
   <PhysicsObjectFriction>0.200000002980232</PhysicsObjectFriction>
   <PhysicsObjectAwake>-1</PhysicsObjectAwake>
   <PhysicsObjectKinematic>0</PhysicsObjectKinematic>
-  <PhysicsShapePoints/>
+  <PhysicsShapePoints>
+    <point>15,7</point>
+    <point>8,8</point>
+  </PhysicsShapePoints>
 </object>

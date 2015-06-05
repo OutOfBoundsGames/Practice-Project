@@ -82,6 +82,21 @@ else
             <string>if global.select != "iron"
 {
     global.select = "iron"
+    if instance_exists(obj_gui_frame_add)
+    {
+        with obj_gui_frame_add
+        {
+            collapse=true;
+        }
+    }
+    if instance_exists(obj_arrow)
+    {
+        with obj_arrow
+        {
+        instance_destroy();
+        instance_create(other.objx,other.objy,obj_arrow)
+        }
+    }else instance_create(objx,objy,obj_arrow)
 }
 else
 {
@@ -131,5 +146,8 @@ draw_self();
   <PhysicsObjectFriction>0.200000002980232</PhysicsObjectFriction>
   <PhysicsObjectAwake>-1</PhysicsObjectAwake>
   <PhysicsObjectKinematic>0</PhysicsObjectKinematic>
-  <PhysicsShapePoints/>
+  <PhysicsShapePoints>
+    <point>0,32</point>
+    <point>32,32</point>
+  </PhysicsShapePoints>
 </object>

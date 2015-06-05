@@ -27,7 +27,6 @@
             <kind>1</kind>
             <string>global.version = "&lt;Unamed&gt; Pre-Alpha v0.0.1"
 global.select = ""
-global.select2= ""
 global.map=mp_grid_create(0,0,room_width/64,room_height/64,64,64);
 </string>
           </argument>
@@ -53,6 +52,13 @@ global.map=mp_grid_create(0,0,room_width/64,room_height/64,64,64);
             <kind>1</kind>
             <string>/// Debug
 //show_debug_message("mouse x: " + string(mouse_x) + "/mouse y: " + string(mouse_y));
+if global.select=""
+{
+    if instance_exists(obj_arrow)
+    {
+        with obj_arrow instance_destroy();
+    }
+}
 </string>
           </argument>
         </arguments>

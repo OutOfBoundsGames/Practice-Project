@@ -82,6 +82,21 @@ else
             <string>if global.select != "stone"
 {
     global.select = "stone"
+    if instance_exists(obj_gui_frame_add)
+    {
+        with obj_gui_frame_add
+        {
+            collapse=true;
+        }
+    }
+    if instance_exists(obj_arrow)
+    {
+        with obj_arrow
+        {
+        instance_destroy();
+        instance_create(other.objx,other.objy,obj_arrow)
+        }
+    }else instance_create(objx,objy,obj_arrow)
 }
 else
 {
