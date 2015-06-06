@@ -54,6 +54,7 @@
     <background>background\tile_gui</background>
     <background>background\bg_gray</background>
     <background>background\bg_test</background>
+    <background>background\bcg_grass</background>
   </backgrounds>
   <paths name="paths"/>
   <fonts name="fonts">
