@@ -3,7 +3,7 @@
   <spriteName>&lt;undefined&gt;</spriteName>
   <solid>0</solid>
   <visible>-1</visible>
-  <depth>0</depth>
+  <depth>-7</depth>
   <persistent>0</persistent>
   <parentName>&lt;undefined&gt;</parentName>
   <maskName>&lt;undefined&gt;</maskName>
@@ -53,7 +53,7 @@ global.emerald = 0;
           <argument>
             <kind>1</kind>
             <string>//44 - 697
-draw_text(obj_gui_frame.x+44,obj_gui_frame.y+697,global.wood)
+draw_text(obj_gui_frame.x+44,obj_gui_frame.y+697-5,global.wood)
 </string>
           </argument>
         </arguments>
