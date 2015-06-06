@@ -174,7 +174,8 @@ if global.select = "destroy"
 }
 else
 {
-    if place_free(x,y)
+//if place_free(x+64,y+64)
+if point_distance(x,y,instance_nearest(x,y,obj_lumbermill).x,instance_nearest(x,y,obj_lumbermill).y)&gt;64
     {
         instance_create(x,y,obj_lumbermill);
     }
