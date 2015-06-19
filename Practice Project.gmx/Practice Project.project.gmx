@@ -57,6 +57,9 @@
     <background>background\bcg_grass</background>
   </backgrounds>
   <paths name="paths"/>
+  <scripts name="scripts">
+    <script>scripts\scr_view_zoom.gml</script>
+  </scripts>
   <fonts name="fonts">
     <font>fonts\fnt_test</font>
   </fonts>
@@ -93,6 +96,7 @@
       <object>objects\ctrl_console</object>
       <object>objects\ctrl_grid</object>
       <object>objects\ctrl_resourcecontrol</object>
+      <object>objects\ctrl_zoom</object>
     </objects>
     <objects name="Blocks">
       <object>objects\obj_wood_block</object>
