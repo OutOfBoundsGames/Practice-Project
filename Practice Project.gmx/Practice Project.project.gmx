@@ -57,9 +57,7 @@
     <background>background\bcg_grass</background>
   </backgrounds>
   <paths name="paths"/>
-  <scripts name="scripts">
-    <script>scripts\scr_view_zoom.gml</script>
-  </scripts>
+  <scripts name="scripts"/>
   <fonts name="fonts">
     <font>fonts\fnt_test</font>
   </fonts>

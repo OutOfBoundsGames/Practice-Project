@@ -8,7 +8,7 @@
   <parentName>&lt;undefined&gt;</parentName>
   <maskName>&lt;undefined&gt;</maskName>
   <events>
-    <event eventtype="3" enumb="0">
+    <event eventtype="6" enumb="61">
       <action>
         <libid>1</libid>
         <id>603</id>
@@ -25,14 +25,38 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>//Zooming
-if (mouse_wheel_up()) {
-   scr_view_zoom(-.1, 0)
-} 
-
-if (mouse_wheel_down()) {
-   scr_view_zoom(.1, 0)
-} 
+            <string>if(view_wview[0] &gt;= 540)then
+{
+ view_wview[0] -= 67.5;
+ view_hview[0] -= 45;
+}
+</string>
+          </argument>
+        </arguments>
+      </action>
+    </event>
+    <event eventtype="6" enumb="60">
+      <action>
+        <libid>1</libid>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>if(view_wview[0] &lt;= 2160)then
+{
+ view_wview[0] += 67.5;
+ view_hview[0] += 45;
+}
 </string>
           </argument>
         </arguments>
