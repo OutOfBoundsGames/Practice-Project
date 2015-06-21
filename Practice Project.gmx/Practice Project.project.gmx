@@ -48,6 +48,12 @@
     <sprite>sprites\spr_apple</sprite>
     <sprite>sprites\sprite31</sprite>
     <sprite>sprites\spr_twig</sprite>
+    <sprites name="buildings">
+      <sprites name="lumber mill">
+        <sprite>sprites\spr_building_lumbermill</sprite>
+        <sprite>sprites\spr_building_lumbermill_loaded</sprite>
+      </sprites>
+    </sprites>
   </sprites>
   <backgrounds name="background">
     <background>background\bg_press_esc</background>
