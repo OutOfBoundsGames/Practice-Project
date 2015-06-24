@@ -54,6 +54,7 @@
         <sprite>sprites\spr_building_lumbermill_loaded</sprite>
       </sprites>
     </sprites>
+    <sprite>sprites\spr_movebtn</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\bg_press_esc</background>
@@ -110,6 +111,7 @@
     <object>objects\obj_tree</object>
     <object>objects\obj_log</object>
     <object>objects\obj_plus4</object>
+    <object>objects\obj_movebtn</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\rm_start</room>
