@@ -16,6 +16,7 @@
     </sprites>
     <sprites name="Blocks">
       <sprite>sprites\spr_wooden_block</sprite>
+      <sprite>sprites\spr_stone_block</sprite>
       <sprite>sprites\spr_block</sprite>
     </sprites>
     <sprite>sprites\spr_enemy</sprite>
@@ -64,6 +65,10 @@
     <background>background\bcg_grass</background>
   </backgrounds>
   <paths name="paths"/>
+  <scripts name="scripts">
+    <script>scripts\scr_wood_place.gml</script>
+    <script>scripts\scr_stone_place.gml</script>
+  </scripts>
   <fonts name="fonts">
     <font>fonts\fnt_test</font>
   </fonts>
@@ -103,6 +108,7 @@
     </objects>
     <objects name="Blocks">
       <object>objects\obj_wood_block</object>
+      <object>objects\obj_stone_block</object>
       <object>objects\obj_lumbermill</object>
     </objects>
     <object>objects\obj_hammer</object>
