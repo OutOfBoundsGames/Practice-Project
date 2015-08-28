@@ -56,6 +56,7 @@
       </sprites>
     </sprites>
     <sprite>sprites\spr_movebtn</sprite>
+    <sprite>sprites\spr_infobox</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\bg_press_esc</background>
@@ -118,6 +119,7 @@
     <object>objects\obj_log</object>
     <object>objects\obj_plus4</object>
     <object>objects\obj_movebtn</object>
+    <object>objects\obj_infobox</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\rm_start</room>
