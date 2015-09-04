@@ -53,7 +53,7 @@ global.emerald = 0;
           <argument>
             <kind>1</kind>
             <string>//44 - 697
-draw_text(obj_gui_frame.x+44,obj_gui_frame.y+697-5,global.wood)
+draw_text(obj_gui_frame.x+45,obj_gui_frame.y+593,global.wood)
 </string>
           </argument>
         </arguments>

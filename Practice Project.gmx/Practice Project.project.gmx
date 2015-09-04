@@ -28,11 +28,14 @@
       <sprite>sprites\spr_arrow</sprite>
       <sprite>sprites\spr_hammer_1</sprite>
       <sprite>sprites\spr_destroy</sprite>
+      <sprite>sprites\spr_destroyfull</sprite>
       <sprite>sprites\spr_Exit</sprite>
       <sprite>sprites\spr_gui_frame</sprite>
       <sprite>sprites\spr_hammer_2</sprite>
       <sprite>sprites\spr_wood</sprite>
       <sprite>sprites\spr_ironresource</sprite>
+      <sprite>sprites\spr_movebtn</sprite>
+      <sprite>sprites\spr_movefull</sprite>
     </sprites>
     <sprite>sprites\sprite21</sprite>
     <sprite>sprites\spr_tree</sprite>
@@ -55,8 +58,8 @@
         <sprite>sprites\spr_building_lumbermill_loaded</sprite>
       </sprites>
     </sprites>
-    <sprite>sprites\spr_movebtn</sprite>
     <sprite>sprites\spr_infobox</sprite>
+    <sprite>sprites\sprite39</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\bg_press_esc</background>
