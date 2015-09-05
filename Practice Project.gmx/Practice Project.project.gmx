@@ -63,6 +63,8 @@
     <sprite>sprites\spr_MenuBg</sprite>
     <sprite>sprites\spr_menubtns</sprite>
     <sprite>sprites\spr_pausebtn</sprite>
+    <sprite>sprites\sprite46</sprite>
+    <sprite>sprites\sprite47</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\bg_press_esc</background>
@@ -126,7 +128,7 @@
     <object>objects\obj_plus4</object>
     <object>objects\obj_movebtn</object>
     <object>objects\obj_infobox</object>
-    <object>objects\obj_pausebtn</object>
+    <object>objects\obj_keybinds</object>
     <object>objects\obj_menubg</object>
     <object>objects\obj_menubtns</object>
   </objects>

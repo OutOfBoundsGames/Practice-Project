@@ -3,7 +3,7 @@
   <spriteName>spr_menubtns</spriteName>
   <solid>0</solid>
   <visible>-1</visible>
-  <depth>-10</depth>
+  <depth>-1001</depth>
   <persistent>0</persistent>
   <parentName>&lt;undefined&gt;</parentName>
   <maskName>&lt;undefined&gt;</maskName>
@@ -123,7 +123,6 @@ case 2 :game_end();
 x=view_xview[0]+objx
 y=view_yview[0]+objy
 draw_self();
-
 </string>
           </argument>
         </arguments>

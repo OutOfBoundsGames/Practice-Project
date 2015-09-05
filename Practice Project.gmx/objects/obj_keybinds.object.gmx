@@ -3,7 +3,7 @@
   <spriteName>spr_pausebtn</spriteName>
   <solid>0</solid>
   <visible>-1</visible>
-  <depth>0</depth>
+  <depth>-6</depth>
   <persistent>0</persistent>
   <parentName>&lt;undefined&gt;</parentName>
   <maskName>&lt;undefined&gt;</maskName>
@@ -86,7 +86,39 @@ else
 x=view_xview[0]+objx
 y=view_yview[0]+objy
 draw_self();
-
+</string>
+          </argument>
+        </arguments>
+      </action>
+    </event>
+    <event eventtype="10" enumb="13">
+      <action>
+        <libid>1</libid>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>if !instance_exists(obj_menubg)
+{
+    instance_create(view_wview[0]/2,view_hview[0]/2,obj_menubg)
+}
+else
+{
+    with obj_menubg
+    {
+        destroy=true;
+    }
+}
 </string>
           </argument>
         </arguments>
