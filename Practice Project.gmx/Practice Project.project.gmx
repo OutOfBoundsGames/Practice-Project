@@ -60,6 +60,9 @@
     </sprites>
     <sprite>sprites\spr_infobox</sprite>
     <sprite>sprites\sprite39</sprite>
+    <sprite>sprites\spr_MenuBg</sprite>
+    <sprite>sprites\spr_menubtns</sprite>
+    <sprite>sprites\spr_pausebtn</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\bg_press_esc</background>
@@ -123,6 +126,9 @@
     <object>objects\obj_plus4</object>
     <object>objects\obj_movebtn</object>
     <object>objects\obj_infobox</object>
+    <object>objects\obj_pausebtn</object>
+    <object>objects\obj_menubg</object>
+    <object>objects\obj_menubtns</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\rm_start</room>
