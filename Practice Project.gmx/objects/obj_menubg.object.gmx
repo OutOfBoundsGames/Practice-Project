@@ -72,15 +72,15 @@ if image_xscale &lt; 0 || image_yscale &lt; 0
 }
 if image_xscale==1 &amp;&amp; !instance_exists(obj_menubtns)
 {
-    with instance_create(x,y-70,obj_menubtns)
+    with instance_create(objx,y-70,obj_menubtns)
     {
         image_index=0;
     }
-     with instance_create(x,y,obj_menubtns)
+     with instance_create(objx,y,obj_menubtns)
     {
         image_index=1;
     }
-     with instance_create(x,y+70,obj_menubtns)
+     with instance_create(objx,y+70,obj_menubtns)
     {
         image_index=2;
     }
