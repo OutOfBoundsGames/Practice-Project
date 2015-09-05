@@ -110,6 +110,7 @@ if image_xscale==1 &amp;&amp; !instance_exists(obj_menubtns)
             <string>///Draw options
 x=view_xview[0]+objx
 y=view_yview[0]+objy
+draw_sprite_ext(sprite_index,-1,x+4,y+7,image_xscale,image_yscale,image_angle,c_black,0.8);
 draw_self();
 
 </string>

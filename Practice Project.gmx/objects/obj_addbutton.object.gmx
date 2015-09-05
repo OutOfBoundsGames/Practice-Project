@@ -118,6 +118,7 @@ else
             <string>///Draw options
 x=view_xview[0]+x1
 y=view_yview[0]+y1
+draw_sprite_ext(sprite_index,-1,x+2,y+3,image_xscale,image_yscale,image_angle,c_black,0.7);
 draw_self();
 </string>
           </argument>

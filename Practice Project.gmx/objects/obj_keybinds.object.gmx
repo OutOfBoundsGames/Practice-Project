@@ -85,6 +85,7 @@ else
             <string>///Draw options
 x=view_xview[0]+objx
 y=view_yview[0]+objy
+draw_sprite_ext(sprite_index,-1,x+1,y+2,image_xscale,image_yscale,image_angle,c_black,0.5);
 draw_self();
 </string>
           </argument>

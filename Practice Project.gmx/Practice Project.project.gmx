@@ -72,6 +72,7 @@
     <background>background\bg_gray</background>
     <background>background\bg_test</background>
     <background>background\bcg_grass</background>
+    <background>background\background5</background>
   </backgrounds>
   <paths name="paths"/>
   <scripts name="scripts">
@@ -104,10 +105,14 @@
         <object>objects\obj_gui_frame</object>
         <object>objects\obj_arrow</object>
         <object>objects\obj_gui_frame_add</object>
+        <object>objects\obj_keybinds</object>
+        <object>objects\obj_movebtn</object>
       </objects>
       <object>objects\obj_btn2</object>
       <object>objects\obj_btn1</object>
       <object>objects\obj_addbutton</object>
+      <object>objects\obj_menubtns</object>
+      <object>objects\obj_menubg</object>
     </objects>
     <objects name="Controllers">
       <object>objects\ctrl_game</object>
@@ -126,11 +131,7 @@
     <object>objects\obj_tree</object>
     <object>objects\obj_log</object>
     <object>objects\obj_plus4</object>
-    <object>objects\obj_movebtn</object>
     <object>objects\obj_infobox</object>
-    <object>objects\obj_keybinds</object>
-    <object>objects\obj_menubg</object>
-    <object>objects\obj_menubtns</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\rm_start</room>
