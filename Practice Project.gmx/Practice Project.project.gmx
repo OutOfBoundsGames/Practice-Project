@@ -36,7 +36,6 @@
       <sprite>sprites\spr_wood</sprite>
       <sprite>sprites\spr_ironresource</sprite>
       <sprite>sprites\spr_movebtn</sprite>
-      <sprite>sprites\spr_movefull</sprite>
     </sprites>
     <sprite>sprites\sprite21</sprite>
     <sprite>sprites\spr_tree</sprite>
