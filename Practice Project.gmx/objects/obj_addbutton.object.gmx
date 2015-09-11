@@ -92,6 +92,7 @@ else
     {
         collapse=true;
     }
+    global.select=" ";
 }
 </string>
           </argument>
