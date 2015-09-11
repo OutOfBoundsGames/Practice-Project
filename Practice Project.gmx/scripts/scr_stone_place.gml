@@ -1,4 +1,4 @@
-    if global.wood >= 2
+    if global.stone >= 5
     {
         if (distance_to_point(par_gui.x,par_gui.y)>=16)
         {
@@ -20,7 +20,7 @@
                with(instance_place(x-1, y, obj_stone_block)){
                   event_user(0);
                }
-               global.wood -= 2;
+               global.wood -= 5;
             } else { 
                show_message("Can't place block there!");
             }

@@ -65,8 +65,6 @@
     <sprite>sprites\spr_MenuBg</sprite>
     <sprite>sprites\spr_menubtns</sprite>
     <sprite>sprites\spr_pausebtn</sprite>
-    <sprite>sprites\sprite46</sprite>
-    <sprite>sprites\sprite47</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\bg_press_esc</background>

@@ -128,6 +128,11 @@ if global.select = "destroy"
        ctrl_grid.grid[other.x/64, other.y/64] = eStatus.EMPTY; // Set the cell to empty in the grid
        instance_destroy();  //We will delete the block that is placed under the cursor box
        global.wood += 1;
+       
+    with(instance_place(x,y,obj_stone_block)){
+       ctrl_grid.grid[other.x/64, other.y/64] = eStatus.EMPTY; // Set the cell to empty in the grid
+       instance_destroy();  //We will delete the block that is placed under the cursor box
+       global.wood += 1;
     }
     
     
@@ -165,6 +170,7 @@ if (!instance_number(obj_wood_block)) || point_distance(x,y,instance_nearest(x,y
     {
         instance_create(x,y,obj_lumbermill);
     }
+}
 }
 </string>
           </argument>
