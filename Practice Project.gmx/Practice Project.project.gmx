@@ -16,6 +16,7 @@
     </sprites>
     <sprites name="Blocks">
       <sprite>sprites\spr_wooden_block</sprite>
+      <sprite>sprites\spr_wood3d</sprite>
       <sprite>sprites\spr_stone_block</sprite>
       <sprite>sprites\spr_block</sprite>
     </sprites>
@@ -39,7 +40,9 @@
     </sprites>
     <sprite>sprites\sprite21</sprite>
     <sprite>sprites\spr_tree</sprite>
+    <sprite>sprites\sprite49</sprite>
     <sprite>sprites\spr_log</sprite>
+    <sprite>sprites\sprite48</sprite>
     <sprite>sprites\spr_treeEffect</sprite>
     <sprite>sprites\spr_logeff</sprite>
     <sprite>sprites\spr_gui_frame_add</sprite>
