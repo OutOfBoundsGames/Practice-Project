@@ -65,6 +65,7 @@
     <sprite>sprites\spr_MenuBg</sprite>
     <sprite>sprites\spr_menubtns</sprite>
     <sprite>sprites\spr_pausebtn</sprite>
+    <sprite>sprites\spr_mine</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\bg_press_esc</background>
@@ -124,6 +125,7 @@
       <object>objects\obj_wood_block</object>
       <object>objects\obj_stone_block</object>
       <object>objects\obj_lumbermill</object>
+      <object>objects\obj_mine</object>
     </objects>
     <object>objects\obj_hammer</object>
     <object>objects\obj_enemy</object>
@@ -132,6 +134,7 @@
     <object>objects\obj_log</object>
     <object>objects\obj_plus4</object>
     <object>objects\obj_infobox</object>
+    <object>objects\obj_woodstack</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\rm_start</room>

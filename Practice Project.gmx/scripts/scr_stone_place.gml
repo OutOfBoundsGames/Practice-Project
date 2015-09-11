@@ -20,7 +20,7 @@
                with(instance_place(x-1, y, obj_stone_block)){
                   event_user(0);
                }
-               global.wood -= 5;
+               global.stone -= 5;
             } else { 
                show_message("Can't place block there!");
             }
