@@ -179,6 +179,7 @@
     <instance objName="obj_tree" x="1152" y="832" name="inst_E2B3DA68" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_tree" x="1408" y="832" name="inst_F1C41D8E" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_tree" x="1600" y="768" name="inst_C04ED8AA" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="ctrl_sound" x="-64" y="0" name="inst_E8DD251D" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles>
     <tile bgName="" x="64" y="0" w="16" h="16" xo="0" yo="0" id="10000001" name="inst_6A5D5740" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>

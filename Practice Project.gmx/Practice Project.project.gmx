@@ -6,6 +6,7 @@
   <NewExtensions/>
   <sounds name="sound">
     <sound>sound\snd_woodblock</sound>
+    <sound>sound\snd_sndtrck</sound>
   </sounds>
   <sprites name="sprites">
     <sprites name="Cursors">
@@ -136,6 +137,7 @@
     <object>objects\obj_plus4</object>
     <object>objects\obj_infobox</object>
     <object>objects\obj_woodstack</object>
+    <object>objects\ctrl_sound</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\rm_start</room>
