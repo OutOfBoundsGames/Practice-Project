@@ -42,7 +42,6 @@
     <sprite>sprites\spr_tree</sprite>
     <sprite>sprites\sprite49</sprite>
     <sprite>sprites\spr_log</sprite>
-    <sprite>sprites\sprite48</sprite>
     <sprite>sprites\spr_treeEffect</sprite>
     <sprite>sprites\spr_logeff</sprite>
     <sprite>sprites\spr_gui_frame_add</sprite>
@@ -50,6 +49,7 @@
     <sprite>sprites\spr_sawmill</sprite>
     <sprite>sprites\spr_btn2</sprite>
     <sprite>sprites\spr_lumbermill</sprite>
+    <sprite>sprites\sprite48</sprite>
     <sprite>sprites\spr_plus4</sprite>
     <sprite>sprites\sprite29</sprite>
     <sprite>sprites\spr_apple</sprite>
@@ -68,6 +68,7 @@
     <sprite>sprites\spr_pausebtn</sprite>
     <sprite>sprites\spr_mine</sprite>
     <sprite>sprites\sprite50</sprite>
+    <sprite>sprites\sprite51</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\bg_press_esc</background>
