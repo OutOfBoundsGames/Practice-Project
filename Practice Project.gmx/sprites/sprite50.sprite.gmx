@@ -8,17 +8,17 @@
   <sepmasks>0</sepmasks>
   <bboxmode>0</bboxmode>
   <bbox_left>0</bbox_left>
-  <bbox_right>41</bbox_right>
+  <bbox_right>12</bbox_right>
   <bbox_top>0</bbox_top>
-  <bbox_bottom>41</bbox_bottom>
+  <bbox_bottom>11</bbox_bottom>
   <HTile>0</HTile>
   <VTile>0</VTile>
   <TextureGroups>
     <TextureGroup0>0</TextureGroup0>
   </TextureGroups>
   <For3D>0</For3D>
-  <width>42</width>
-  <height>42</height>
+  <width>13</width>
+  <height>12</height>
   <frames>
     <frame index="0">images\sprite50_0.png</frame>
   </frames>
